@@ -109,7 +109,11 @@
     opacity:1;
  }
 
+<<<<<<< HEAD
  
+=======
+ /* Media Queries for Responsiveness */
+>>>>>>> 2c51e0d967296be3a22925df964ec6aa72939f39
 
 /* For tablets and smaller desktops */
 @media (max-width: 1024px) {
