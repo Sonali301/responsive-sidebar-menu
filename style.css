@@ -183,6 +183,6 @@
    .main_box {
     background-size: cover; /* Ensure the whole image fits */
     background-repeat: no-repeat; /* Prevent tiling */
-    background-position: center; 
+    /* background-position: center;  */
 }
 }
