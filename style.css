@@ -178,10 +178,10 @@
         left: 0; /* Show sidebar when checked */
     }
  
-    .main_box {
-        background-size: contain; /* Ensure the whole image fits */
-        background-repeat: no-repeat; /* Prevent tiling */
-        background-position: center; /* Center the image */
-    }
+    /* .main_box { */
+        /* background-size: contain; Ensure the whole image fits */
+        /* background-repeat: no-repeat; Prevent tiling */
+        /* background-position: center; Center the image */
+    /* } */
  }
  
