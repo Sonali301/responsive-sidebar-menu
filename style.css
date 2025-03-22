@@ -179,7 +179,7 @@
    }
 
    .main_box {
-    background-image: url("photo.jpg");
+    /* background-image: url("photo.jpg"); */
     height: 100vh;
     background-size: contain; /* Show the entire image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
