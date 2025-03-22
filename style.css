@@ -109,6 +109,8 @@
     opacity:1;
  }
 
+
+
 /* For tablets and smaller desktops */
 @media (max-width: 1024px) {
    .sidebar_menu {
@@ -153,35 +155,28 @@
 
 /* For mobile devices */
 @media (max-width: 480px) {
-    .sidebar_menu {
-        width: 100%; /* Full width for sidebar on mobile */
-        left: -100%; /* Hide sidebar completely */
-    }
- 
-    .sidebar_menu .logo a {
-        left: 10px; /* Adjust logo position */
-    }
- 
-    .sidebar_menu .btn_two i {
-        left: 90%; /* Adjust close button position */
-    }
- 
-    .sidebar_menu .social_media {
-        left: 10%; /* Adjust social media icons position */
-    }
- 
-    .btn_one i {
-        font-size: 16px; /* Reduce menu icon size */
-    }
- 
-    #check:checked ~ .sidebar_menu {
-        left: 0; /* Show sidebar when checked */
-    }
- 
-    /* .main_box { */
-        /* background-size: contain; Ensure the whole image fits */
-        /* background-repeat: no-repeat; Prevent tiling */
-        /* background-position: center; Center the image */
-    /* } */
- }
- 
+   .sidebar_menu {
+       width: 100%; /* Full width for sidebar on mobile */
+       left: -100%; /* Hide sidebar completely */
+   }
+
+   .sidebar_menu .logo a {
+       left: 10px; /* Adjust logo position */
+   }
+
+   .sidebar_menu .btn_two i {
+       left: 90%; /* Adjust close button position */
+   }
+
+   .sidebar_menu .social_media {
+       left: 10%; /* Adjust social media icons position */
+   }
+
+   .btn_one i {
+       font-size: 16px; /* Reduce menu icon size */
+   }
+
+   #check:checked ~ .sidebar_menu {
+       left: 0; /* Show sidebar when checked */
+   }
+}
